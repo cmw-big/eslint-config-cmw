@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-cmw",
+  "version": "0.0.2",
+  "description": "ESLint rules by cmw configured",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./all-cover.js": "./rules/all-cover.js"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "rules/**"
+  ],
+  "scripts": {},
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide",
+    "typescript",
+    "prettier"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-plugin-import": ">=^2.25.3",
+    "eslint-plugin-jsx-a11y": ">=^6.5.1",
+    "eslint-plugin-react": ">=^7.28.0",
+    "@typescript-eslint/eslint-plugin": ">=^5.48.2",
+    "@typescript-eslint/parser": ">=^5.48.2",
+    "eslint-config-airbnb": ">=^19.0.4",
+    "eslint-config-prettier": ">=^8.6.0",
+    "eslint-import-resolver-typescript": ">=^3.5.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": ">=^4.6.0"
+  }
+}
