@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cmw",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ESLint rules by cmw configured",
   "main": "index.js",
   "exports": {
